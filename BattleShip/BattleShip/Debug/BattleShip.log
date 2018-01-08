@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\sharvitap123\desktop\freshman sem 1 cu denver\oop\labs\battleship\battleship\main.cpp(21): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  BattleShip.vcxproj -> C:\Users\sharvitap123\Desktop\Freshman Sem 1 CU Denver\OOP\Labs\BattleShip\Debug\BattleShip.exe
+  BattleShip.vcxproj -> C:\Users\sharvitap123\Desktop\Freshman Sem 1 CU Denver\OOP\Labs\BattleShip\Debug\BattleShip.pdb (Partial PDB)
