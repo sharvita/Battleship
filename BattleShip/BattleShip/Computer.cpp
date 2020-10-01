@@ -52,11 +52,11 @@ void Computer :: getShipsInfo()  //generates random nums for ships to be placed
 		setShips(battle, 7);
 		
 	
-	cout << "Computer has placed it's ships" << endl << endl;
+	cout << "Computer has placed its ships" << endl << endl;
 
 
 }
-void Computer :: setShips(WaterVehicle& ship, int num)  //checks if ships is placed, if not then genrates another random numbers
+void Computer :: setShips(WaterVehicle& ship, int num)  //checks if ships are placed, if not then generates other random numbers
 {
 	if (!vec.setShipPosition(ship, num, ship.printShipName(num)))
 	{
