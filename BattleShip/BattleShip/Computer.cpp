@@ -10,41 +10,41 @@ Computer::Computer() {
 void Computer :: getShipsInfo()  //generates random nums for ships to be placed
 {
 
-		int x = generateRandomNumbers();
-		int y = generateRandomNumbers();
-
+		int x=generateRandomNumbers(),y = generateRandomNumbers();
+		
+		int RandomXY()
+		{
+		x = generateRandomNumbers();
+		y = generateRandomNumbers();
+		}
 
 		//Submarine
 		WaterVehicle sub(generateRandomOrient(), x,y, 3, 3);
 		submarine = sub;
 		setShips(sub, 3);
 
-		x = generateRandomNumbers();
-		y = generateRandomNumbers();
+		 RandomXY();
 
 		//Cruiser
 		WaterVehicle cru(generateRandomOrient(), x,y, 3, 4);
 		cruiser = cru;
 		setShips(cru, 4);
 
-		x = generateRandomNumbers();
-		y = generateRandomNumbers();
+		 RandomXY();
 
 		//Destroyer
 		WaterVehicle dest(generateRandomOrient(), x,y, 2, 5);
 		destroyer = dest;
 		setShips(dest, 5);
 
-		x = generateRandomNumbers();
-		y = generateRandomNumbers();
+		 RandomXY();
 
 		//Carrier
 		WaterVehicle carr(generateRandomOrient(), x,y, 5, 6);
 		carrier = carr;
 		setShips(carr, 6);
 
-		x = generateRandomNumbers();
-		y = generateRandomNumbers();
+		 RandomXY();
 	
 		//BattleShip
 		WaterVehicle battle(generateRandomOrient(),x,y, 4, 7);
